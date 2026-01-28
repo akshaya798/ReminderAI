@@ -1,0 +1,33 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "package.json"
+            ],
+            "schema": {
+                "$schema": "http://json-schema.org/draft-07/schema#",
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "version": {
+                        "type": "string"
+                    },
+                    "private": {
+                        "type": "boolean"
+                    },
+                    "scripts": {
+                        "type": "object"
+                    },
+                    "dependencies": {
+                        "type": "object"
+                    },
+                    "devDependencies": {
+                        "type": "object"
+                    }
+                }
+            }
+        }
+    ]
+}
