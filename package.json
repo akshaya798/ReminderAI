@@ -2,7 +2,11 @@
   "name": "amc-reminder",
   "version": "0.0.1",
   "private": true,
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
+    "start:api": "node server/index.js",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
@@ -23,6 +27,9 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.11",
     "typescript": "^5.6.3",
-    "vite": "^6.0.1"
+    "vite": "^6.0.1",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
   }
 }
